@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+body{
+    height: 100vh;
+    display: grid;
+    place-items:center;
+    height: 100vh;
+    background-color: rgb(0, 50, 131);
+
+}
+.con-1{
+    border: 2px solid aqua;
+    height: 470px;
+    width:440px ;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    padding: 0 35px;
+}
+.concha-1{
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    line-height: 1.6 ;
+}
+.concha-1 p{
+    font-size: 16px ;
+   font-weight: 500;
+}
+.concha-1 h1{
+    color: #0fe;
+    
+}
+.input-box{
+width: 100%;
+height: 55px;
+position: relative;
+
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border:  2px solid #0fe;
+    font-size: 16px;
+    border: 2px solid  rgb(153, 150, 150) ;
+    color: white;
+    caret-color: red;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+.con-cha{
+    width: 100%;
+    position: relative;
+}
+.input-box .icon{
+position: absolute;
+right: 10px;
+top: 50%;
+transform: translateY(-30%);
+color: white;
+}
+.input-box .email{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 20px;
+    top: 50%;
+transform: translateY(-30%);
+pointer-events: none;
+transition: .2s;
+transition: .2s;
+
+
+}
+.input-box input:focus~.email{
+    left: 8px;
+    top: 0;
+    color: aqua;
+    font-size: 14px;
+    background-color: ;
+}
+.input:focus{
+    border: 2px solid #0fe;
+}
+.forgor{
+    margin-top: 7px;
+
+}
+.forgor a{
+    color: #0fe;
+font-size: 15px;
+}
+.forgor a :hover{
+    text-decoration: underline;
+}
+
+.tekts{
+    margin: 40px 0;
+    color: white;
+    font-size: 15px;
+}
+.tekts a{
+    color: #0fe;
+    font-size: 15px;
+}
+.btn-box a{
+color: #0fe;
+font-size: 15px;
+}
+.btn-box{
+display: flex;
+justify-content: space-between;
+
+}
+.btn-box a:hover{
+    text-decoration:underline ;
+}
+
+.btn{
+width: 90px ;
+height: 40px ;
+background-color: #0fe;
+border: none;
+border-radius: 10px;
+font-size: 15px;
+font-weight: 525;
+color: black;
+}
+
+
+
+
+.page-container-pasword-box .forgor{
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+} 
+.page-container-pasword-box{
+    
+    border-radius: 8px;
+    padding: 60px 1px; 
+}
